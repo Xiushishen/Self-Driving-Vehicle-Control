@@ -21,7 +21,7 @@ A Proportional-Integral-Derivative (PID) controller was used for longitudinal co
 
 The schematic diagram below is the illustration of the PID control loop used.
 
-<p align="center"><img src="https://github.com/JagtapSagar/Vehicle-Control/blob/main/media/longitudinal_control.PNG"></p>
+<p align="center"><img src="https://github.com/Xiushishen/Self-Driving-Vehicle-Control/blob/main/Vehicle_Control/media/longitudinal_control.PNG"></p>
 
 This design can be broken down into a high level and a low level controller. The formulation of the high level PID controller is as follows:
 
