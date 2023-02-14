@@ -45,7 +45,7 @@ A lateral controller is used by the vehicle to track the vehicles desired path. 
 In this project a Stanley Controller was implemented, which is a geometric control design ,i.e., it relies on the geometry and coordinates of the desired path and the kinematic model of the vehicle.
 
 The kinematic model of the vehicle is based on the Bicycle kinematic model which is illustrated below.
-<p align="center"><img src="https://github.com/JagtapSagar/Vehicle-Control/blob/main/media/kinematic_model_for_stanley_controller.PNG" width=280 height=250/></p>
+<p align="center"><img src="https://github.com/Xiushishen/Self-Driving-Vehicle-Control/blob/main/Vehicle_Control/kinematic_model_for_stanley_controller.PNG" width=280 height=250/></p>
 
 The reference positions given here are waypoint positions, therefore heading and crosstrack errors need to be calculated.
 - Crosstrack error (e) - Calculated as the perpendicular distance from the line connecting the previous and next waypoints and the front axle of the vehicle.
@@ -88,8 +88,8 @@ Simulation
 ---
 The simulation begins with the self-driving car being placed at the start line of a preconfigured racetrack in the CARLA simulator. The controller is feed the list of way points and a velocity profile to follow. PID longitudinal controller outputs the throttle and brake commands to execute given velocity profile. And the Stanley lateral controller outputs steering angles to ensure the vehicle follows the desired path which consists of the given waypoint. The control feedback plots also can be seen on the left of the illustration below.
 
-<p align="center"><img src="https://github.com/JagtapSagar/Vehicle-Control/blob/main/media/simulation_and_control_feedback.gif"><p>
+<p align="center"><img src="https://github.com/Xiushishen/Self-Driving-Vehicle-Control/blob/main/Vehicle_Control/simulation_and_control_feedback.gif"><p>
 
 The reference and the actual trajectory profile of the simulation is also illustrated in the gif below. The path in green is defined by the waypoints given. The path in yellow is the trajectory the vehicle has traced.
-<p align="center"><img src="https://github.com/JagtapSagar/Vehicle-Control/blob/main/media/vehicle_trajectory.gif" width=402 height=402></p>
+<p align="center"><img src="https://github.com/Xiushishen/Self-Driving-Vehicle-Control/blob/main/Vehicle_Control/vehicle_trajectory.gif" width=402 height=402></p>
 
